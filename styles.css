@@ -1,0 +1,86 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.navbar {
+    background-color: #2196F3;
+    overflow: hidden;
+	flex-wrap: wrap;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #0b7dda;
+}
+
+.background-image {
+    background-image: url('assets/gold.jpg');
+	background-repeat: repeat-y;
+    background-size: cover;
+	flex: 1;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.tos .content {
+	margin: 30px;
+}
+
+.tos h1 {
+	text-align: left;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.tos p {
+	line-height: 1.6;
+}
+
+.data .content {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.data table {
+    border-collapse: collapse;
+	margin: 30px;
+    margin-top: 20px;
+	background-color: white;
+}
+
+.data th {
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+}
+
+.data td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.data footer > p {
+	margin: 30px;
+
+}
