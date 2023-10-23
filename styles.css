@@ -10,6 +10,18 @@ body {
 	height: 100vh;
 }
 
+.tos h2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.tos .bp {
+	border-radius: 5px;
+    background-color: #2196F3;
+	width: 10px;
+	height: 10px;
+}
+
 .navbar {
     background-color: #2196F3;
 	flex-wrap: wrap;
@@ -17,16 +29,54 @@ body {
 }
 
 .navbar a {
-    float: left;
-    display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+	padding: 10px;
+	padding-right: 10px;
     text-decoration: none;
+}
+
+.navbar > div {
+	margin: auto 0px;
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 30px 40px;
+}
+
+form input {
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+	background-color: #2196F3;
+	color: white;
+	border: none;
+}
+
+svg {
+	padding-left: 10px;
+}
+
+.register form input {
+	margin-bottom: 10px;
 }
 
 .navbar a:hover {
     background-color: #0b7dda;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .index .background-image {
@@ -111,7 +161,7 @@ h1 {
     border: 1px solid #ccc;
 }
 
-.data footer > p {
+footer > p {
 	margin: 30px;
 
 }
